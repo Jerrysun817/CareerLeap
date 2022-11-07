@@ -1,0 +1,67 @@
+* {
+    margin: 0; 
+    border: 0;
+  }
+  
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      border: #BCBCBC 3px;
+  }
+
+  .profile-container {
+      width: 100%;
+  }
+
+  .flex-child {
+    flex: 1;
+}  
+
+    .flex-child:first-child {
+        margin-right: 20px;
+    } 
+  
+  .profile {
+      display: flex;
+      flex-direction: column;
+      min-width: 300px;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
+  }
+  
+  .image {
+      width: 50%;
+      margin-left: 50px;
+  }
+  
+  .status {
+      font-size: 14px;
+      font-weight: 600;
+      color: black;
+      font-weight: 700;
+  }
+
+  .socials{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .sociallist{
+    list-style-type: none;
+  }
+  
+  .sociallogo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .info{
+    list-style-type: none;
+  }
