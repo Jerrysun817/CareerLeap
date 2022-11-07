@@ -12,7 +12,7 @@ function FilterBy() {
     };
 
     const getJobInitialState = () => {
-        const job = "Software";
+        const job = "Building Trades";
         return job;
     };
     
@@ -55,8 +55,10 @@ function FilterBy() {
                     <option value="No">No</option>
                 </select>
                 <select value={job} onChange={handleJobChange}>
-                    <option value="Software">Software</option>
-                    <option value="Hardware">Hardware</option>
+                    <option value="Building Trades">Building Trades</option>
+                    <option value="Industrial Trades">Industrial Trades</option>
+                    <option value="Mechanical Trades">Mechanical Trades</option>
+                    <option value="Medical Trades">Medical Trades</option>
                 </select>
                 {/* <p>{`You selected ${disability}, ${job}`}</p> */}
             </div>
