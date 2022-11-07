@@ -26,6 +26,7 @@ function Company(props) {
             
             <ul className="info">
                 <li className="status">{props.name}</li>
+                <li className='location'>{props.job}</li>
                 <li className="location">{props.location}</li>
             </ul>
         </div>
