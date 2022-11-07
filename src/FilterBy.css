@@ -1,20 +1,4 @@
-* {
-    margin: 0; 
-    border: 0;
-  }
-  
-  .container {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      border: #BCBCBC 3px;
-  }
-
-  .profile-container {
-      width: 100%;
-  }
-
-  .button {
+.button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -27,11 +11,17 @@
     cursor: pointer;
     transition: 0.3s;
     border: 1px solid green;
-    float: right;
+    
   }
 
   .button:hover {
     background-color: white; 
     color: #4CAF50;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .buttonmove{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
   }
