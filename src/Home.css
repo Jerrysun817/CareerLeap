@@ -1,0 +1,19 @@
+* {
+    margin: 0; 
+    border: 0;
+  }
+  
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      border: #BCBCBC 3px;
+  }
+
+  .profile-container {
+      width: 100%;
+  }
+
+  .logo{
+    margin: 10px;
+  }

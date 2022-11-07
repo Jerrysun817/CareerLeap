@@ -1,0 +1,57 @@
+[
+    {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "123@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "Nugget Junior",
+        "location": "Vancouver, British Columbia",
+        "job": "Software developer",
+        "tags": ["Software"]
+    },
+    {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "123@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "UBC2",
+        "location": "Vancouver",
+        "job": "Software developer",
+        "tags": ["Data Science", "Resume", "No"]
+    },
+    {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "123@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "UBC",
+        "location": "Vancouver",
+        "job": "Software developer",
+        "tags": ["Software", "Yes"]
+    },
+    {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "123@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "UBC",
+        "location": "Vancouver",
+        "job": "Software developer",
+        "tags": ["Software", "No"]
+    },
+    {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "123@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "UBC",
+        "location": "Vancouver",
+        "job": "Hardware developer",
+        "tags": ["Hardware"]
+    },
+    {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "345@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "UBC",
+        "location": "Vancouver",
+        "job": "Software developer",
+        "tags": ["Software"]
+    }
+
+]
