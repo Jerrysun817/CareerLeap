@@ -6,7 +6,7 @@
         "name": "David Banker",
         "location": "Toronto, Ontario",
         "job": "Machinist at Stark Industries",
-        "tags": ["Yes", "Mechanical Trades"]
+        "tags": ["With disability", "Mechanical Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797056925818/4.png",
@@ -15,7 +15,7 @@
         "name": "Royden Launay",
         "location": "Vancouver, British Columbia",
         "job": "Machinist at Stark Industries",
-        "tags": ["No", "Mechanical Trades"]
+        "tags": ["Without disability", "Mechanical Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797937709116/6.png",
@@ -24,7 +24,7 @@
         "name": "Proserpio Bianchi",
         "location": "Surrey, British Columbia",
         "job": "Ironworker at Whitemud Ironworks Limited",
-        "tags": ["Yes", "Industrial Trades"]
+        "tags": ["With disability", "Industrial Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973796398411857/3.png",
@@ -33,7 +33,7 @@
         "name": "Claudia Iadanza",
         "location": "Victoria, British Columbia",
         "job": "Auto mechanic at Echo’s Towing Ltd.",
-        "tags": ["No", "Mechanical Trades"]
+        "tags": ["Without disability", "Mechanical Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973798306828348/7.png",
@@ -42,7 +42,7 @@
         "name": "Caitlin Williamson",
         "location": "Vancouver British Columbia",
         "job": "Respiratory Therapist at Vancouver General Hospital",
-        "tags": ["Yes", "Medical Trades"]
+        "tags": ["With disability", "Medical Trades"]
     },
         {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797577011210/5.png",
@@ -51,7 +51,7 @@
         "name": "Jamie Craig",
         "location": "Vancouver, British Columbia",
         "job": "Landscaper at Jerry Landscaping",
-        "tags": ["Yes", "Building Trades"]
+        "tags": ["With disability", "Building Trades"]
     },
         {
         "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
@@ -60,7 +60,7 @@
         "name": "Guerrino Calabresi",
         "location": "Vancouver, British Columbia",
         "job": "Plumber at Nugget Plumbing Ltd.",
-        "tags": ["No", "Building Trades"]
+        "tags": ["Without disability", "Building Trades"]
     },
         {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797577011210/5.png",
@@ -69,7 +69,7 @@
         "name": "Caleb Clifton",
         "location": "Vancouver, British Columbia",
         "job": "Metal fabricator at The City of Vancouver",
-        "tags": ["No", "Industrial Trades"]
+        "tags": ["Without disability", "Industrial Trades"]
     },
         {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797937709116/6.png",
@@ -78,6 +78,6 @@
         "name": "Lily Willason",
         "location": "Richmond, British Columbia",
         "job": "Software developer",
-        "tags": ["No", "Mechanical Trades"]
+        "tags": ["Without disability", "Mechanical Trades"]
     }
 ]

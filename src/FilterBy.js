@@ -7,7 +7,7 @@ import "./FilterBy.css";
 function FilterBy() {
 
     const getDisabilityInitialState = () => {
-        const disability = "Yes";
+        const disability = "With disability";
         return disability;
     };
 
@@ -43,72 +43,55 @@ function FilterBy() {
     }
     
     return (
-        <div>
+        <div style={{
+            width: '100%'
+        }}>
             <div>
                 <div className="buttonmove">
             <div>                
+                
+                <button className="button" onClick={() => handleFilter()}>Search</button>
                 <button onClick={navigateToHome} className="button">go back</button>
-
                 <div>
                 </div>
+                <div className="leftindent">
                 {/* <Select options={disability} placeholder="Filter by Disability"/>
                 <Select options={jobs} placeholder="Filter by Job Type"/> */}
                 <select value={disability} onChange={handleDisabilityChange}>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
+                    <option value="With disability">With disability</option>
+                    <option value="Without disability">Without disability</option>
                 </select>
+                
                 <select value={job} onChange={handleJobChange}>
                     <option value="Building Trades">Building Trades</option>
                     <option value="Industrial Trades">Industrial Trades</option>
                     <option value="Mechanical Trades">Mechanical Trades</option>
                     <option value="Medical Trades">Medical Trades</option>
                 </select>
+                </div>
                 {/* <p>{`You selected ${disability}, ${job}`}</p> */}
             </div>
-            <button className="button" onClick={() => handleFilter()}>Go</button>
+            
             </div>
             </div>
-            <div>
-                {
-                    result.map((item) => {
-                        return (
-                            <Company image={item.image}
-                                    email={item.email}
-                                    linkedin={item.linkedin}
-                                    name={item.name}
-                                    location={item.location}
-                                    job={item.job}/>
-                        )
-                    })
-                }
+            <div  className="container2">
+                <div className="prof">
+                    {
+                        result.map((item) => {
+                            return (
+                                <Company image={item.image}
+                                        email={item.email}
+                                        linkedin={item.linkedin}
+                                        name={item.name}
+                                        location={item.location}
+                                        job={item.job}/>
+                            )
+                        })
+                    }
+                </div>
             </div>
         </div>
     );
   }
   
   export default FilterBy;
-
-// import React from "react";
-// import Company from "./Company";
-// import data from "./data.json";
-// import { Link, useNavigate } from "react-router-dom";
-
-// function FilterBy() {
-//     const navigate = useNavigate();
-  
-//     const navigateToHome = () => {
-//       //  navigate back to Home
-//       navigate("/");
-//     };
-  
-//     return (
-//       <div>
-//         <div>
-//           <button onClick={navigateToHome}>go back</button>
-//         </div>
-
-//       </div>
-//     );
-//   }
-  
-//   export default FilterBy;

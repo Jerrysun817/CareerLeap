@@ -24,3 +24,18 @@
     display: flex;
     width: 100%;
   }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: #BCBCBC 3px;
+    width:100%;
+}
+.prof{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.leftindent{
+  margin-left: 20px;
+}
