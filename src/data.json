@@ -1,57 +1,83 @@
 [
     {
-        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
-        "email": "123@gmail.com",
-        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
-        "name": "Nugget Junior",
-        "location": "Vancouver, British Columbia",
-        "job": "Software developer",
-        "tags": ["Software"]
-    },
-    {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973796398411857/3.png",
-        "email": "123@gmail.com",
+        "email": "davidbanker@gmail.com",
         "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
-        "name": "UBC2",
-        "location": "Vancouver",
-        "job": "Software developer",
-        "tags": ["Data Science", "Resume", "No"]
+        "name": "David Banker",
+        "location": "Toronto, Ontario",
+        "job": "Dental assistant at Toronto Dental Centre",
+        "tags": ["Yes", "Medical Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797056925818/4.png",
-        "email": "123@gmail.com",
+        "email": "roydenlaunay@gmail.com",
         "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
-        "name": "UBC",
+        "name": "Royden Launay",
         "location": "Vancouver",
-        "job": "Software developer",
-        "tags": ["Software", "Yes"]
+        "job": "Machinist at Stark Industries",
+        "tags": ["No", "Mechanical Trades"]
     },
     {
-        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
-        "email": "123@gmail.com",
+        "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797937709116/6.png",
+        "email": "proserpio@gmail.com",
         "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
-        "name": "UBC",
-        "location": "Vancouver",
-        "job": "Software developer",
-        "tags": ["Software", "No"]
+        "name": "Proserpio Bianchi",
+        "location": "Surrey, British Columbia",
+        "job": "Ironworker at Whitemud Ironworks Limited",
+        "tags": ["Yes", "Industrial Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973796398411857/3.png",
-        "email": "123@gmail.com",
+        "email": "claudia@gmail.com",
         "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
-        "name": "UBC",
-        "location": "Vancouver",
-        "job": "Hardware developer",
-        "tags": ["Hardware"]
+        "name": "Claudia Iadanza",
+        "location": "Victoria, British Columbia",
+        "job": "Auto mechanic at Echo’s Towing Ltd.",
+        "tags": ["No", "Mechanical Trades"]
     },
     {
         "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973798306828348/7.png",
-        "email": "345@gmail.com",
+        "email": "caitlin@gmail.com",
         "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
-        "name": "UBC",
-        "location": "Vancouver",
+        "name": "Caitlin Williamson",
+        "location": "Vancouver British Columbia",
+        "job": "Respiratory Therapist at Vancouver General Hospital",
+        "tags": ["Yes", "Medical Trades"]
+    },
+        {
+        "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797577011210/5.png",
+        "email": "jamie@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "Jamie Craig",
+        "location": "Vancouver, British Columbia",
+        "job": "Landscaper at Jerry Landscaping",
+        "tags": ["Yes", "Building Trades"]
+    },
+        {
+        "image": "https://www.shareicon.net/data/512x512/2016/05/24/770126_man_512x512.png",
+        "email": "guerrino@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "Guerrino Calabresi",
+        "location": "Vancouver, British Columbia",
+        "job": "Plumber at Nugget Plumbing Ltd.",
+        "tags": ["No", "Building Trades"]
+    },
+        {
+        "image": "hhttps://cdn.discordapp.com/attachments/1038863953540939846/1038973797577011210/5.png",
+        "email": "caleb@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "Caleb Clifton",
+        "location": "Vancouver, British Columbia",
+        "job": "Metal fabricator at The City of Vancouver",
+        "tags": ["No", "Industrial Trades"]
+    },
+        {
+        "image": "https://cdn.discordapp.com/attachments/1038863953540939846/1038973797937709116/6.png",
+        "email": "lily@gmail.com",
+        "linkedin": "https://www.linkedin.com/school/universityofbc/?originalSubdomain=ca",
+        "name": "Lily Willason",
+        "location": "Richmond, British Columbia",
         "job": "Software developer",
-        "tags": ["Software"]
+        "tags": ["No", "Mechanical Trades"]
     }
-
 ]
