@@ -6,7 +6,8 @@ This is a website specially designed to assist people with disabilities in their
 
 ## Structure
 
-here is the link for figma where we designed the layout of our project: [Link]https://www.figma.com/file/FIh3MXC9HF81ywtDRxVyiV/CareerLeap?node-id=1%3A95
+here is the link for figma where we designed the layout of our project: https://www.figma.com/file/FIh3MXC9HF81ywtDRxVyiV/CareerLeap?node-id=1%3A95
+
 Our website consists of two pages - the _Home_ page and the _FilterBy_ page. In the home page we will display all the mentor cards with their basic information - image, name, location, job, link to their LinkedIn and email. In the _FilterBy_ page we will also enable our users to have two types of filters - _disability_ and _job_ , then we will filter the mentors that satisfy these two conditions and display it.
 
 ## To run the project
