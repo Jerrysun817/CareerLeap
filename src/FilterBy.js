@@ -44,7 +44,8 @@ function FilterBy() {
     
     return (
         <div>
-            <div className="buttonmove">
+            <div>
+                <div className="buttonmove">
             <div>                
                 <button onClick={navigateToHome} className="button">go back</button>
 
@@ -65,6 +66,7 @@ function FilterBy() {
                 {/* <p>{`You selected ${disability}, ${job}`}</p> */}
             </div>
             <button className="button" onClick={() => handleFilter()}>Go</button>
+            </div>
             </div>
             <div>
                 {
