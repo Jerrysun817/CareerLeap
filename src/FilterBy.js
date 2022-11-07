@@ -36,7 +36,7 @@ function FilterBy() {
     };
     
     function handleFilter() {
-        let filtered = data.filter(item => item.tags.includes(disability, job));
+        let filtered = data.filter(item => (item.tags.includes(disability) && item.tags.includes(job)));
         setResult(filtered);
         console.log(disability, job);
         console.log(result);
