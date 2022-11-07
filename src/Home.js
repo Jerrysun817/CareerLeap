@@ -17,9 +17,9 @@ function Home() {
     
     return (
         <div className="container profile-container">
-        <div>
-            <button onClick={navigateToFilterBy}>filter by</button>
-        </div>
+        <p align="right">
+            <button onClick={navigateToFilterBy} className="button">filter by</button>
+        </p>
         <div className="container">
             {
                 data.map((item) => {

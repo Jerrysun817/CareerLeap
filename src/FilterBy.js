@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Company from "./Company";
 import data from "./data.json";
 import { Link, useNavigate } from "react-router-dom";
-
+import "./FilterBy.css";
 
 function FilterBy() {
 
@@ -44,9 +44,11 @@ function FilterBy() {
     
     return (
         <div>
-            <div>
+            <div className="buttonmove">
+            <div>                
+                <button onClick={navigateToHome} className="button">go back</button>
+
                 <div>
-                <button onClick={navigateToHome}>go back</button>
                 </div>
                 {/* <Select options={disability} placeholder="Filter by Disability"/>
                 <Select options={jobs} placeholder="Filter by Job Type"/> */}
@@ -55,12 +57,15 @@ function FilterBy() {
                     <option value="No">No</option>
                 </select>
                 <select value={job} onChange={handleJobChange}>
-                    <option value="Software">Software</option>
-                    <option value="Hardware">Hardware</option>
+                    <option value="Building Trades">Building Trades</option>
+                    <option value="Mechanical Trades">Mechanical Trades</option>
+                    <option value="Industrial Trades">Industrial Trades</option>
+                    <option value="Medical Trades">Medical Trades</option>
                 </select>
                 {/* <p>{`You selected ${disability}, ${job}`}</p> */}
             </div>
-            <button onClick={() => handleFilter()}>Go</button>
+            <button className="button" onClick={() => handleFilter()}>Go</button>
+            </div>
             <div>
                 {
                     result.map((item) => {

@@ -14,11 +14,11 @@ function Company(props) {
                 <ul className="socials flex-child">
                     <li className="sociallist">
                         {/* <img width="20px" height="20px" className="sociallogo" src={email} /> */}
-                        <img src={email} className="sociallogo" width="20px" height="20px" onClick={() => Linking.openURL(`mailto:${props.email}?subject=Looking for a mentor...`) } />
+                        <img src={email} className="sociallogo" width="20px" height="20px" onClick={() => Linking.openURL(`mailto:${props.email}?subject=Looking for a mentor...`) }/>
                     </li>
                     <li className="sociallist">
-                        <a href={props.linkedin}>
-                            <img width="20px" height="20px" className="sociallogo" src={linkedin} />
+                        <a href={props.linkedin} target="_blank">
+                            <img width="20px" height="20px" className="sociallogo" src={linkedin}/>
                         </a>
                     </li>
                 </ul>
