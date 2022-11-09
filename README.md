@@ -1,6 +1,6 @@
 # CareerLeap: connecting job seekers who have disabilities to employers and mentors
 #### Submitted to HackCamp 2022
-#### 🏆 Most Innovative Project among 26 submmissions
+#### 🏆 Most Innovative Project among 26 submissions
 
 ## Inspiration
 
