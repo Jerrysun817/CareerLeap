@@ -1,25 +1,37 @@
-# CareerLeap
+# CareerLeap: connecting job seekers who have disabilities to employers and mentors
+#### Submitted to HackCamp 2022
+#### 🏆 Most Innovative Project among 26 submmissions
 
-## Introduction
+## Inspiration
 
-This is a website specially designed to assist people with disabilities in theirs job hunting. If you need assistance on finding your dream job, our website will provide a bridge to you and your unique mentor.
+People with disabilities are often not considered potential members of the workforce. According to the Canadian Centre for Policy Alternatives, over 400,000 Canadians with disabilities are currently unemployed even though they are able and willing to work. As yet, access to effective employment support is limited. 
 
-## Structure
+## What CareerLeap does
 
-Here is the link for figma where we designed the layout of our project: https://www.figma.com/file/FIh3MXC9HF81ywtDRxVyiV/CareerLeap?node-id=1%3A95. A demo is available on https://www.youtube.com/watch?v=ymAooKtO4Mo.
+CareerLeap is a networking platform that connects job seekers with disabilities looking for a job in skills trades with either an employer or a peer who is employed. Job seekers have the option to connect with someone with a disability if they prefer. When you open the home page, all registered mentors are displayed with their basic information (location and job) and buttons that are linked to their LinkedIn and email addresses. You can filter the mentors shown by going to the FilterBy page where you can filter whether they have a disability or not and the type of skills trades career. We hope this website would break down barriers to employment for people with disabilities.
 
-Our website consists of two pages - the _Home_ page and the _FilterBy_ page. In the home page we will display all the mentor cards with their basic information - image, name, location, job, link to their LinkedIn and email. In the _FilterBy_ page we will also enable our users to have two types of filters - _disability_ and _job_ , then we will filter the mentors that satisfy these two conditions and display it.
+## Building Process
+We built the website using React, CSS, JavaScript, and HTML and the design prototype using Figma. 
 
-## To run the project
+## Challenges
+- Learning React and Figma for the first time
+- Programming the filter function
+- Editing the profile layout but using flex list helped solve this issue
 
-### 1. Prerequisite: git, Node.js.
+## What’s next for CareerLeap
+We would like to improve accessibility by implementing an enlarge text size function and allowing users to navigate the site via a keyboard. We also hope to create a chat feature to allow mentees to connect with mentors more easily and build a recommendation system.
+
+
+## How to run the CareerLeap
+
+### 1. Prerequisites: git, Node.js.
 
 ### 2. Set up
 
-- git clone this project.
+- git clone this project
 - redirect to the corresponding directory
 - install the dependency packages by running the following code in the terminal `npm install` `npm install react-native-web`
 
 ### 3. Run!
 
-run the project on localhost by running `npm start` in your terminal and the website will be displaying in this [Link](http://localhost:3000/) by default.
+Run the project on localhost by running `npm start` in your terminal and the website will be displaying in this [Link](http://localhost:3000/) by default.
