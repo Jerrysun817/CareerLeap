@@ -16,7 +16,7 @@ We built the website using React, CSS, JavaScript, and HTML and the design proto
 ## Challenges
 - Learning React and Figma for the first time
 - Programming the filter function
-- Editing the profile layout but using flex list helped solve this issue
+- Editing the profile layout but using flexbox helped solve this issue
 
 ## What’s next for CareerLeap
 We would like to improve accessibility by implementing an enlarge text size function and allowing users to navigate the site via a keyboard. We also hope to create a chat feature to allow mentees to connect with mentors more easily and build a recommendation system.
